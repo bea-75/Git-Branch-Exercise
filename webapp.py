@@ -1,6 +1,10 @@
+from datetime import date
+
+today = date.today()
+
 print('hello world')
 print('my name is ' + name)
 print("today's date is " + date)
 
 name = 'Bea'
-date = '5/2/23'
+date = today.strftime("%m/%d/%y")
